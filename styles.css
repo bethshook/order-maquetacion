@@ -1,0 +1,101 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-size: .9em;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav{
+    height: 60px;
+    border-bottom: #F0F0F0 1px solid;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+#container{
+    margin: 0 30px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#detail{
+    width: 66%;
+    padding: 30px 0;
+}
+
+#history{
+    width: 33%;
+    background-color: #F0F0F0;
+    padding: 30px 20px;
+}
+
+button{
+    border: none;
+    background: dodgerblue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+li{
+    display: inline;
+}
+
+.green-bar{
+    height: 30px;
+    background-color: #e6ffe6;
+    color:green;
+}
+
+.logo{
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+}
+
+.user{
+    font-weight: lighter;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.row{
+    display: inline-block;
+    width: 100%;
+}
+
+.fa-user-circle, .fa-shopping-cart{
+    color: deepskyblue;
+    margin: 0 6px;
+}
+
+.fa-glasses{
+    color: darkred;
+    margin: 0 10px;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.item{
+    height: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+
