@@ -11,6 +11,12 @@ h2{
     margin: 10px 0;
 }
 
+h4{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
 nav{
     height: 60px;
     border-bottom: #F0F0F0 1px solid;
@@ -43,13 +49,47 @@ li{
 
 #detail{
     width: 70%;
-    padding: 30px 0;
+    padding: 30px 0 0 0;
 }
 
 #history{
     width: 30%;
     background-color: #F0F0F0;
     padding: 30px 20px;
+}
+
+.nav-map{
+    cursor: pointer;
+}
+
+.flex{
+    margin: 10px 0;
+}
+
+.half{
+    width:50%;
+}
+
+.third{
+    width: 33%;
+}
+
+.third input{
+    width: 40px;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 0;
+}
+
+.gray{
+    color: lightgray;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .add-padding{
@@ -104,7 +144,7 @@ li{
     width: 100%;
 }
 
-.fa-user-circle, .fa-shopping-cart{
+.fa-user-circle, .fa-shopping-cart, .fa-eye{
     color: deepskyblue;
     margin: 0 6px;
 }
@@ -121,6 +161,7 @@ li{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 5px;
     border: #F0F0F0 solid 1px;
     margin-bottom: 10px;
@@ -130,9 +171,10 @@ li{
     width:20%;
 }
 
-footer{
+.hero{
     background-color: black;
-    height: 100px;
+    height: 150px;
     color: white;
+    padding: 50px;
 }
 
