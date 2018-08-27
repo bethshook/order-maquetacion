@@ -2,11 +2,13 @@ html,body{
     margin: 0;
     padding: 0;
     font-size: .9em;
+    color: dimgray;
 }
 
 h2{
     font-size: 1.2rem;
     font-weight: bold;
+    margin: 10px 0;
 }
 
 nav{
@@ -19,49 +21,78 @@ nav{
     padding: 10px 30px;
 }
 
-#container{
-    margin: 0 30px;
-    display: flex;
-    flex-flow: row wrap;
-}
-
-#detail{
-    width: 66%;
-    padding: 30px 0;
-}
-
-#history{
-    width: 33%;
-    background-color: #F0F0F0;
-    padding: 30px 20px;
-}
-
 button{
     border: none;
     background: dodgerblue;
     color: white;
     font-weight: bold;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 li{
     display: inline;
 }
 
+#container{
+    /*margin: 0 30px;*/
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#detail{
+    width: 70%;
+    padding: 30px 0;
+}
+
+#history{
+    width: 30%;
+    background-color: #F0F0F0;
+    padding: 30px 20px;
+}
+
+.add-padding{
+    padding: 0 30px 30px 30px;
+}
+
 .green-bar{
     height: 30px;
     background-color: #e6ffe6;
-    color:green;
+    color:limegreen;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 30px;
+    border-bottom: 1px #F0F0F0 solid;
+    font-size: 1.2em;
+}
+
+.gray-bar{
+    height: 30px;
+    background-color:#fafafa;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 30px;
+    border-bottom: 1px #F0F0F0 solid;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.details{
+    padding: 0 0 20px 30px;
+    border-bottom: 1px #F0F0F0 solid;
+    margin-bottom: 30px;
 }
 
 .logo{
     font-size: 1.4rem;
     letter-spacing: 4px;
+    cursor: pointer;
 }
 
 .user{
     font-weight: lighter;
+    cursor: pointer;
 }
 
 .bold{
@@ -90,7 +121,13 @@ li{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 5px;
+    border: #F0F0F0 solid 1px;
+    margin-bottom: 10px;
+}
+
+.item div{
+    width:20%;
 }
 
 footer{
