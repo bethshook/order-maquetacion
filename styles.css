@@ -119,7 +119,7 @@ li{
 }
 
 .details{
-    padding: 0 0 20px 30px;
+    padding: 0 30px 20px 30px;
     border-bottom: 1px #F0F0F0 solid;
     margin-bottom: 30px;
 }
@@ -140,8 +140,13 @@ li{
 }
 
 .row{
-    display: inline-block;
     width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.row li{
+    width: 20%;
 }
 
 .fa-user-circle, .fa-shopping-cart, .fa-eye{
@@ -169,6 +174,7 @@ li{
 
 .item div{
     width:20%;
+    text-align: center;
 }
 
 .hero{
@@ -176,5 +182,14 @@ li{
     height: 150px;
     color: white;
     padding: 50px;
+}
+
+.bottom-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.bottom-row div{
 }
 
